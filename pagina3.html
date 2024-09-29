@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Recuerdos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery-item {
+            margin: 10px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+        .gallery-item p {
+            text-align: center;
+            padding: 10px;
+            background-color: #fff;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; padding: 20px;">Galería de Recuerdos</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="foto1.jpg" alt="Evento Especial 1">
+            <p>Productos qu hace la empresa urrea en la que labura Bryan</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto2.jpg" alt="Evento Especial 2">
+            <p>Un grupo de personas que trbaja con ellos</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto3.jpg" alt="Evento Especial 3">
+            <p>Bryan Joseph Martinez Gomez</p>
+</body>
+</html>
